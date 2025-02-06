@@ -1,7 +1,6 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -11,9 +10,9 @@
   },
   "dependencies": {
     "asciiart-logo": "^0.2.6",
-    "dotenv": "^16.4.5",
-    "inquirer": "8.2.4",
-    "pg": "^8.11.3"
+    "dotenv": "^16.4.7",
+    "inquirer": "^8.2.6",
+    "pg": "^8.13.1"
   },
   "keywords": [],
   "author": "",
@@ -23,5 +22,6 @@
     "@types/inquirer": "^9.0.7",
     "@types/pg": "^8.11.6",
     "typescript": "^5.2.2"
-  }
+  },
+  "description": ""
 }

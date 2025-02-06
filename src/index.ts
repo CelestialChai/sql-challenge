@@ -490,18 +490,16 @@ function addEmployee() {
           })
             .then((res) => {
               const employee = {
-                manager_id: res.managerId,
-                role_id: roleId,
                 first_name: firstName,
                 last_name: lastName,
+                role_id: roleId,
+                manager_id: res.managerId,
               };
 
-              db.createEmployee(employee);
-            })
-            .then(() =>
-              console.log(`Added ${firstName} ${lastName} to the database`)
-            )
-            .then(() => loadMainPrompts());
+              db.createEmployee(employee)
+                .then(() => console.log(`Added ${firstName} ${lastName} to the database`))
+                .then(() => loadMainPrompts());
+            });
         });
       });
     });
