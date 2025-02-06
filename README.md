@@ -44,10 +44,10 @@ npx ts-node src/index.ts
 - **View the total utilized budget for each department.**
 
 ## Demo
-📌 **[Watch the walkthrough video here!](your_video_link_here)**
+📌 **[Watch the walkthrough video here!](https://youtu.be/PDbq9RlDapY)**
 
 ## License
-This project is licensed under the **MIT license**.
+None.
 
 ## Contributing
 Developed by **[Amanda]**. Contributions are welcome!
